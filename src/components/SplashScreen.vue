@@ -251,4 +251,42 @@ onMounted(() => {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media (max-width: 768px) {
+  .splash-content {
+    padding: 1rem;
+  }
+  .splash-img {
+    width: 140px;
+    height: 140px;
+  }
+  .image-container {
+    margin-bottom: 1rem;
+  }
+  .invitation-text {
+    padding: 1.5rem 1rem;
+  }
+  .couple-names {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .couple-names span {
+    font-size: 1.5rem;
+  }
+  .date {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  .guest-info {
+    margin-bottom: 1.5rem;
+  }
+  .guest-name {
+    font-size: 1.5rem;
+  }
+  .btn-open {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
 </style>
